@@ -1,0 +1,1306 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision )
++++ app/src/main/res/layout/activity_main.xml	(revision )
+@@ -0,0 +1,222 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    tools:context="com.example.administrator.Layout_Excercise.MainActivity">
++
++
++    <LinearLayout
++        android:orientation="horizontal"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentStart="true">
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="One,One"
++            android:gravity="center"
++            android:id="@+id/textView11"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1.5"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="One,Two"
++            android:gravity="center"
++            android:id="@+id/textView12"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="One,Three"
++            android:gravity="center"
++            android:id="@+id/textView13"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="One,Four"
++            android:gravity="center"
++            android:id="@+id/textView14"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++
++    </LinearLayout>
++    <LinearLayout
++        android:orientation="horizontal"
++        android:layout_width="match_parent"
++        android:layout_marginTop="40dp"
++        android:layout_height="wrap_content"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentStart="true">
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="Two,One"
++            android:gravity="center"
++            android:id="@+id/textView21"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1.5"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="Two,Two"
++            android:gravity="center"
++            android:id="@+id/textView22"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="Two,Three"
++            android:gravity="center"
++            android:id="@+id/textView23"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="Two,Four"
++            android:gravity="center"
++            android:id="@+id/textView24"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++    </LinearLayout>
++    <LinearLayout
++        android:orientation="horizontal"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="80dp"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentStart="true">
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="Three,One"
++            android:gravity="center"
++            android:id="@+id/textView31"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="0.6"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="Three,Two"
++            android:gravity="center"
++            android:id="@+id/textView32"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="Three,Three"
++            android:gravity="center"
++            android:id="@+id/textView33"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="Three,Four"
++            android:gravity="center"
++            android:id="@+id/textView34"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++    </LinearLayout>
++    <LinearLayout
++        android:orientation="horizontal"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="120dp"
++        android:layout_alignParentTop="true"
++        android:layout_alignParentStart="true">
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="Four,One"
++            android:gravity="center"
++            android:id="@+id/textView41"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1.5"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="Four,Two"
++            android:gravity="center"
++            android:id="@+id/textView42"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#000000"
++            android:text="Four,Three"
++            android:gravity="center"
++            android:id="@+id/textView43"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_weight="1"
++            android:layout_width="wrap_content"
++            android:layout_height="40dp"
++            android:textColor="#FFFFFF"
++            android:background="#0033FF"
++            android:text="Four,Four"
++            android:gravity="center"
++            android:id="@+id/textView44"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++    </LinearLayout>
++
++</RelativeLayout>
+Index: gradlew.bat
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradlew.bat	(revision )
++++ gradlew.bat	(revision )
+@@ -0,0 +1,90 @@
++@if "%DEBUG%" == "" @echo off
++@rem ##########################################################################
++@rem
++@rem  Gradle startup script for Windows
++@rem
++@rem ##########################################################################
++
++@rem Set local scope for the variables with windows NT shell
++if "%OS%"=="Windows_NT" setlocal
++
++@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++set DEFAULT_JVM_OPTS=
++
++set DIRNAME=%~dp0
++if "%DIRNAME%" == "" set DIRNAME=.
++set APP_BASE_NAME=%~n0
++set APP_HOME=%DIRNAME%
++
++@rem Find java.exe
++if defined JAVA_HOME goto findJavaFromJavaHome
++
++set JAVA_EXE=java.exe
++%JAVA_EXE% -version >NUL 2>&1
++if "%ERRORLEVEL%" == "0" goto init
++
++echo.
++echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:findJavaFromJavaHome
++set JAVA_HOME=%JAVA_HOME:"=%
++set JAVA_EXE=%JAVA_HOME%/bin/java.exe
++
++if exist "%JAVA_EXE%" goto init
++
++echo.
++echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:init
++@rem Get command-line arguments, handling Windowz variants
++
++if not "%OS%" == "Windows_NT" goto win9xME_args
++if "%@eval[2+2]" == "4" goto 4NT_args
++
++:win9xME_args
++@rem Slurp the command line arguments.
++set CMD_LINE_ARGS=
++set _SKIP=2
++
++:win9xME_args_slurp
++if "x%~1" == "x" goto execute
++
++set CMD_LINE_ARGS=%*
++goto execute
++
++:4NT_args
++@rem Get arguments from the 4NT Shell from JP Software
++set CMD_LINE_ARGS=%$
++
++:execute
++@rem Setup the command line
++
++set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
++
++@rem Execute Gradle
++"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
++
++:end
++@rem End local scope for the variables with windows NT shell
++if "%ERRORLEVEL%"=="0" goto mainEnd
++
++:fail
++rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
++rem the _cmd.exe /c_ return code!
++if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
++exit /b 1
++
++:mainEnd
++if "%OS%"=="Windows_NT" endlocal
++
++:omega
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.name	(revision )
++++ .idea/.name	(revision )
+@@ -0,0 +1,1 @@
++Layout_Excercise
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision )
++++ .idea/modules.xml	(revision )
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Layout_Excercise.iml" filepath="$PROJECT_DIR$/Layout_Excercise.iml" />
++      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision )
++++ .idea/compiler.xml	(revision )
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <resourceExtensions />
++    <wildcardResourcePatterns>
++      <entry name="!?*.java" />
++      <entry name="!?*.form" />
++      <entry name="!?*.class" />
++      <entry name="!?*.groovy" />
++      <entry name="!?*.scala" />
++      <entry name="!?*.flex" />
++      <entry name="!?*.kt" />
++      <entry name="!?*.clj" />
++      <entry name="!?*.aj" />
++    </wildcardResourcePatterns>
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="false">
++        <processorPath useClasspath="true" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/test/java/com/fjnu/administrator/layout_excercise/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/test/java/com/fjnu/administrator/layout_excercise/ExampleUnitTest.java	(revision )
++++ app/src/test/java/com/fjnu/administrator/layout_excercise/ExampleUnitTest.java	(revision )
+@@ -0,0 +1,15 @@
++package com.fjnu.administrator.layout_excercise;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * To work on unit tests, switch the Test Artifact in the Build Variants view.
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() throws Exception {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/table_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/table_layout.xml	(revision )
++++ app/src/main/res/layout/table_layout.xml	(revision )
+@@ -0,0 +1,158 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="#000000">
++    <TableLayout
++        android:layout_width="wrap_content"
++        android:layout_height="match_parent">
++
++        <TableRow
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            >
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="  Open...."
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="300dp"
++                android:id="@+id/textView7" />
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="Ctrl-O"
++                android:gravity="right"
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="75dp"
++                android:layout_marginRight="0dp"
++                android:id="@+id/textView8" />
++
++        </TableRow>
++        <TableRow
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            >
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="  Save...."
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="300dp"
++                android:id="@+id/textView9" />
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="Ctrl-S"
++                android:gravity="right"
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="75dp"
++                android:layout_marginRight="0dp"
++                android:id="@+id/textView10" />
++
++        </TableRow>
++        <TableRow
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            >
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="  Save As...."
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="300dp"
++                android:id="@+id/textView11" />
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="Ctrl-Shift-S"
++                android:gravity="right"
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="75dp"
++                android:layout_marginRight="0dp"
++                android:id="@+id/textView12" />
++
++        </TableRow>
++        <TableRow>
++            <View
++                android:layout_height="2px"
++                android:layout_width="match_parent"
++                android:background="#FF909090"/>
++            <View
++                android:layout_height="2px"
++                android:layout_width="match_parent"
++                android:background="#FF909090"/>
++        </TableRow>
++        <TableRow
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            >
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="  X Import...."
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="300dp"
++                android:id="@+id/textView13" />
++
++        </TableRow>
++        <TableRow
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            >
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="  X Export...."
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="300dp"
++                android:id="@+id/textView14" />
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="Ctrl-E"
++                android:gravity="right"
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="75dp"
++                android:layout_marginRight="0dp"
++                android:id="@+id/textView15" />
++
++        </TableRow>
++        <TableRow>
++            <View
++                android:layout_height="2px"
++                android:layout_width="match_parent"
++                android:background="#FF909090"/>
++            <View
++                android:layout_height="2px"
++                android:layout_width="match_parent"
++                android:background="#FF909090"/>
++        </TableRow>
++        <TableRow
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            >
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="  Quit"
++                android:height="30dp"
++                android:textColor="#FFFFFF"
++                android:width="300dp"
++                android:id="@+id/textView16" />
++
++
++        </TableRow>
++
++    </TableLayout>
++
++</LinearLayout>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision )
++++ .idea/misc.xml	(revision )
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
++    <OptionsSetting value="true" id="Add" />
++    <OptionsSetting value="true" id="Remove" />
++    <OptionsSetting value="true" id="Checkout" />
++    <OptionsSetting value="true" id="Update" />
++    <OptionsSetting value="true" id="Status" />
++    <OptionsSetting value="true" id="Edit" />
++    <ConfirmationsSetting value="0" id="Add" />
++    <ConfirmationsSetting value="0" id="Remove" />
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision )
++++ .idea/vcs.xml	(revision )
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- gradle.properties	(revision )
++++ gradle.properties	(revision )
+@@ -0,0 +1,18 @@
++# Project-wide Gradle settings.
++
++# IDE (e.g. Android Studio) users:
++# Gradle settings configured through the IDE *will override*
++# any settings specified in this file.
++
++# For more details on how to configure your build environment visit
++# http://www.gradle.org/docs/current/userguide/build_environment.html
++
++# Specifies the JVM arguments used for the daemon process.
++# The setting is particularly useful for tweaking memory settings.
++# Default value: -Xmx10248m -XX:MaxPermSize=256m
++# org.gradle.jvmargs=-Xmx2048m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
++
++# When configured, Gradle will run in incubating parallel mode.
++# This option should only be used with decoupled projects. More details, visit
++# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
++# org.gradle.parallel=true
+\ No newline at end of file
+Index: app/src/androidTest/java/com/fjnu/administrator/layout_excercise/ApplicationTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/androidTest/java/com/fjnu/administrator/layout_excercise/ApplicationTest.java	(revision )
++++ app/src/androidTest/java/com/fjnu/administrator/layout_excercise/ApplicationTest.java	(revision )
+@@ -0,0 +1,13 @@
++package com.fjnu.administrator.layout_excercise;
++
++import android.app.Application;
++import android.test.ApplicationTestCase;
++
++/**
++ * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
++ */
++public class ApplicationTest extends ApplicationTestCase<Application> {
++    public ApplicationTest() {
++        super(Application.class);
++    }
++}
+\ No newline at end of file
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- settings.gradle	(revision )
++++ settings.gradle	(revision )
+@@ -0,0 +1,1 @@
++include ':app'
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision )
++++ .gitignore	(revision )
+@@ -0,0 +1,8 @@
++*.iml
++.gradle
++/local.properties
++/.idea/workspace.xml
++/.idea/libraries
++.DS_Store
++/build
++/captures
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision )
++++ app/src/main/res/values/strings.xml	(revision )
+@@ -0,0 +1,4 @@
++<resources>
++    <string name="app_name">Layout_Excercise</string>
++    <string name="action_settings">Settings</string>
++</resources>
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision )
++++ app/src/main/AndroidManifest.xml	(revision )
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.fjnu.administrator.layout_excercise">
++
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_launcher"
++        android:label="@string/app_name"
++        android:supportsRtl="true"
++        android:theme="@style/AppTheme">
++        <activity
++            android:name=".MainActivity"
++            android:label="@string/app_name">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++    </application>
++
++</manifest>
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/.gitignore	(revision )
++++ app/.gitignore	(revision )
+@@ -0,0 +1,1 @@
++/build
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- gradle/wrapper/gradle-wrapper.properties	(revision )
++++ gradle/wrapper/gradle-wrapper.properties	(revision )
+@@ -0,0 +1,6 @@
++#Wed Oct 21 11:34:03 PDT 2015
++distributionBase=GRADLE_USER_HOME
++distributionPath=wrapper/dists
++zipStoreBase=GRADLE_USER_HOME
++zipStorePath=wrapper/dists
++distributionUrl=https\://services.gradle.org/distributions/gradle-2.8-all.zip
+Index: app/src/main/java/com/fjnu/administrator/layout_excercise/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/fjnu/administrator/layout_excercise/MainActivity.java	(revision )
++++ app/src/main/java/com/fjnu/administrator/layout_excercise/MainActivity.java	(revision )
+@@ -0,0 +1,37 @@
++package com.fjnu.administrator.layout_excercise;
++
++import android.os.Bundle;
++import android.support.v7.app.ActionBarActivity;
++import android.view.Menu;
++import android.view.MenuItem;
++
++public class MainActivity extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.table_layout);
++    }
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_main, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/values-w820dp/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-w820dp/dimens.xml	(revision )
++++ app/src/main/res/values-w820dp/dimens.xml	(revision )
+@@ -0,0 +1,6 @@
++<resources>
++    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
++         (such as screen margins) for screens with more than 820dp of available width. This
++         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
++    <dimen name="activity_horizontal_margin">64dp</dimen>
++</resources>
+Index: app/src/main/res/layout/relative_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/relative_layout.xml	(revision )
++++ app/src/main/res/layout/relative_layout.xml	(revision )
+@@ -0,0 +1,99 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent">
++    <RelativeLayout
++        android:layout_width="match_parent"
++        android:layout_height="match_parent">
++
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:height="50dp"
++            android:width="50dp"
++            android:background="#FF0000"
++            android:textColor="#000000"
++            android:text="Red"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentStart="true" />
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:height="50dp"
++            android:width="50dp"
++            android:background="#FFCC00"
++            android:textColor="#000000"
++            android:text="Orange"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView1"
++            android:layout_alignParentTop="true"
++            android:layout_centerHorizontal="true" />
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:height="50dp"
++            android:width="50dp"
++            android:background="#FFFF00"
++            android:textColor="#000000"
++            android:text="Yellow"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView2"
++            android:layout_alignParentTop="true"
++            android:layout_alignParentRight="true" />
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:height="40dp"
++            android:width="40dp"
++            android:background="#FFFF00"
++            android:textColor="#000000"
++            android:text="Yellow"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView3"
++            android:layout_centerInParent="true" />
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:height="50dp"
++            android:width="50dp"
++            android:background="#00FF00"
++            android:textColor="#000000"
++            android:text="Green"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView4"
++            android:layout_centerInParent="true"
++            android:layout_toLeftOf="@+id/textView3"/>
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:height="50dp"
++            android:width="50dp"
++            android:background="#6600FF"
++            android:textColor="#000000"
++            android:text="Indigo"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView5"
++            android:layout_toRightOf="@+id/textView3"
++            android:layout_centerInParent="true"/>
++        <TextView
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:height="50dp"
++            android:background="#FF00FF"
++            android:textColor="#000000"
++            android:text="Violet"
++            android:textSize="10dp"
++            android:gravity="center"
++            android:id="@+id/textView6"
++            android:layout_alignParentBottom="true"/>
++    </RelativeLayout>
++
++</LinearLayout>
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(revision )
++++ build.gradle	(revision )
+@@ -0,0 +1,23 @@
++// Top-level build file where you can add configuration options common to all sub-projects/modules.
++
++buildscript {
++    repositories {
++        jcenter()
++    }
++    dependencies {
++        classpath 'com.android.tools.build:gradle:1.5.0'
++
++        // NOTE: Do not place your application dependencies here; they belong
++        // in the individual module build.gradle files
++    }
++}
++
++allprojects {
++    repositories {
++        jcenter()
++    }
++}
++
++task clean(type: Delete) {
++    delete rootProject.buildDir
++}
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/encodings.xml	(revision )
++++ .idea/encodings.xml	(revision )
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: gradlew
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradlew	(revision )
++++ gradlew	(revision )
+@@ -0,0 +1,160 @@
++#!/usr/bin/env bash
++
++##############################################################################
++##
++##  Gradle start up script for UN*X
++##
++##############################################################################
++
++# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++DEFAULT_JVM_OPTS=""
++
++APP_NAME="Gradle"
++APP_BASE_NAME=`basename "$0"`
++
++# Use the maximum available, or set MAX_FD != -1 to use that value.
++MAX_FD="maximum"
++
++warn ( ) {
++    echo "$*"
++}
++
++die ( ) {
++    echo
++    echo "$*"
++    echo
++    exit 1
++}
++
++# OS specific support (must be 'true' or 'false').
++cygwin=false
++msys=false
++darwin=false
++case "`uname`" in
++  CYGWIN* )
++    cygwin=true
++    ;;
++  Darwin* )
++    darwin=true
++    ;;
++  MINGW* )
++    msys=true
++    ;;
++esac
++
++# Attempt to set APP_HOME
++# Resolve links: $0 may be a link
++PRG="$0"
++# Need this for relative symlinks.
++while [ -h "$PRG" ] ; do
++    ls=`ls -ld "$PRG"`
++    link=`expr "$ls" : '.*-> \(.*\)$'`
++    if expr "$link" : '/.*' > /dev/null; then
++        PRG="$link"
++    else
++        PRG=`dirname "$PRG"`"/$link"
++    fi
++done
++SAVED="`pwd`"
++cd "`dirname \"$PRG\"`/" >/dev/null
++APP_HOME="`pwd -P`"
++cd "$SAVED" >/dev/null
++
++CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
++
++# Determine the Java command to use to start the JVM.
++if [ -n "$JAVA_HOME" ] ; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
++        # IBM's JDK on AIX uses strange locations for the executables
++        JAVACMD="$JAVA_HOME/jre/sh/java"
++    else
++        JAVACMD="$JAVA_HOME/bin/java"
++    fi
++    if [ ! -x "$JAVACMD" ] ; then
++        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++    fi
++else
++    JAVACMD="java"
++    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++fi
++
++# Increase the maximum file descriptors if we can.
++if [ "$cygwin" = "false" -a "$darwin" = "false" ] ; then
++    MAX_FD_LIMIT=`ulimit -H -n`
++    if [ $? -eq 0 ] ; then
++        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
++            MAX_FD="$MAX_FD_LIMIT"
++        fi
++        ulimit -n $MAX_FD
++        if [ $? -ne 0 ] ; then
++            warn "Could not set maximum file descriptor limit: $MAX_FD"
++        fi
++    else
++        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
++    fi
++fi
++
++# For Darwin, add options to specify how the application appears in the dock
++if $darwin; then
++    GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
++fi
++
++# For Cygwin, switch paths to Windows format before running java
++if $cygwin ; then
++    APP_HOME=`cygpath --path --mixed "$APP_HOME"`
++    CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
++    JAVACMD=`cygpath --unix "$JAVACMD"`
++
++    # We build the pattern for arguments to be converted via cygpath
++    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
++    SEP=""
++    for dir in $ROOTDIRSRAW ; do
++        ROOTDIRS="$ROOTDIRS$SEP$dir"
++        SEP="|"
++    done
++    OURCYGPATTERN="(^($ROOTDIRS))"
++    # Add a user-defined pattern to the cygpath arguments
++    if [ "$GRADLE_CYGPATTERN" != "" ] ; then
++        OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
++    fi
++    # Now convert the arguments - kludge to limit ourselves to /bin/sh
++    i=0
++    for arg in "$@" ; do
++        CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
++        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
++
++        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
++            eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
++        else
++            eval `echo args$i`="\"$arg\""
++        fi
++        i=$((i+1))
++    done
++    case $i in
++        (0) set -- ;;
++        (1) set -- "$args0" ;;
++        (2) set -- "$args0" "$args1" ;;
++        (3) set -- "$args0" "$args1" "$args2" ;;
++        (4) set -- "$args0" "$args1" "$args2" "$args3" ;;
++        (5) set -- "$args0" "$args1" "$args2" "$args3" "$args4" ;;
++        (6) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" ;;
++        (7) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" ;;
++        (8) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" ;;
++        (9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;
++    esac
++fi
++
++# Split up the JVM_OPTS And GRADLE_OPTS values into an array, following the shell quoting and substitution rules
++function splitJvmOpts() {
++    JVM_OPTS=("$@")
++}
++eval splitJvmOpts $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS
++JVM_OPTS[${#JVM_OPTS[*]}]="-Dorg.gradle.appname=$APP_BASE_NAME"
++
++exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
+Index: app/src/main/res/menu/menu_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_main.xml	(revision )
++++ app/src/main/res/menu/menu_main.xml	(revision )
+@@ -0,0 +1,10 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.fjnu.administrator.layout_excercise.MainActivity">
++    <item
++        android:id="@+id/action_settings"
++        android:orderInCategory="100"
++        android:title="@string/action_settings"
++        app:showAsAction="never" />
++</menu>
+Index: .idea/copyright/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/copyright/profiles_settings.xml	(revision )
++++ .idea/copyright/profiles_settings.xml	(revision )
+@@ -0,0 +1,3 @@
++<component name="CopyrightManager">
++  <settings default="" />
++</component>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(revision )
++++ .idea/gradle.xml	(revision )
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="distributionType" value="LOCAL" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="gradleHome" value="D:\android\an\gradle\gradle-2.8" />
++        <option name="gradleJvm" value="1.8" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/proguard-rules.pro	(revision )
++++ app/proguard-rules.pro	(revision )
+@@ -0,0 +1,17 @@
++# Add project specific ProGuard rules here.
++# By default, the flags in this file are appended to flags specified
++# in D:\android\sdk/tools/proguard/proguard-android.txt
++# You can edit the include path and order by changing the proguardFiles
++# directive in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# Add any project specific keep options here:
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(revision )
++++ app/build.gradle	(revision )
+@@ -0,0 +1,26 @@
++apply plugin: 'com.android.application'
++
++android {
++    compileSdkVersion 21
++    buildToolsVersion "25.0.2"
++
++    defaultConfig {
++        applicationId "com.fjnu.administrator.layout_excercise"
++        minSdkVersion 19
++        targetSdkVersion 21
++        versionCode 1
++        versionName "1.0"
++    }
++    buildTypes {
++        release {
++            minifyEnabled false
++            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
++        }
++    }
++}
++
++dependencies {
++    compile fileTree(dir: 'libs', include: ['*.jar'])
++    testCompile 'junit:junit:4.12'
++    compile 'com.android.support:appcompat-v7:21.0.3'
++}
+Index: app/src/main/res/values/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/dimens.xml	(revision )
++++ app/src/main/res/values/dimens.xml	(revision )
+@@ -0,0 +1,5 @@
++<resources>
++    <!-- Default screen margins, per the Android Design guidelines. -->
++    <dimen name="activity_horizontal_margin">16dp</dimen>
++    <dimen name="activity_vertical_margin">16dp</dimen>
++</resources>
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/runConfigurations.xml	(revision )
++++ .idea/runConfigurations.xml	(revision )
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
++        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
++        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/styles.xml	(revision )
++++ app/src/main/res/values/styles.xml	(revision )
+@@ -0,0 +1,8 @@
++<resources>
++
++    <!-- Base application theme. -->
++    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
++        <!-- Customize your theme here. -->
++    </style>
++
++</resources>
